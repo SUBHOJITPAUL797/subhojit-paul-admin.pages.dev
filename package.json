@@ -1,0 +1,18 @@
+{
+  "name": "subhojit-paul-admin.pages.dev",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "firebase": "^12.7.0",
+    "framer-motion": "^12.24.0",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.11.0"
+  }
+}
