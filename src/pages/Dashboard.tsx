@@ -17,6 +17,7 @@ const Dashboard = () => {
                 <nav style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
                     <Link to="/projects" style={{ color: "white", textDecoration: "none", padding: "10px", background: "#222", borderRadius: "8px" }}>Projects</Link>
                     <Link to="/resume" style={{ color: "white", textDecoration: "none", padding: "10px", background: "#222", borderRadius: "8px" }}>Resume Data</Link>
+                    <Link to="/content" style={{ color: "white", textDecoration: "none", padding: "10px", background: "#222", borderRadius: "8px" }}>Site Content</Link>
                 </nav>
                 <div style={{ marginTop: "auto" }}>
                     <p style={{ fontSize: "12px", opacity: 0.5 }}>Logged in as:<br />{user?.email}</p>

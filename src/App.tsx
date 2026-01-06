@@ -5,6 +5,8 @@ import Dashboard from "./pages/Dashboard";
 import ProjectManager from "./pages/ProjectManager";
 import ResumeManager from "./pages/ResumeManager";
 
+import ContentManager from "./pages/ContentManager";
+
 const ProtectedRoute = ({ children }: { children: JSX.Element }) => {
   const { user, loading } = useAuth();
   if (loading) return <div>Loading...</div>;
@@ -26,6 +28,7 @@ function App() {
             <Route index element={<Navigate to="/projects" />} />
             <Route path="projects" element={<ProjectManager />} />
             <Route path="resume" element={<ResumeManager />} />
+            <Route path="content" element={<ContentManager />} />
           </Route>
         </Routes>
       </BrowserRouter>
